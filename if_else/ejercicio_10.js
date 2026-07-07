@@ -14,3 +14,12 @@
 */
 
 
+var usuario = "admin";
+var contrasena = "sena2026";
+if (usuario === "admin" && contrasena === "sena2026") {
+    console.log("Bienvenido al sistema.");
+} else if (usuario === "admin" && contrasena !== "sena2025") {
+    console.log("Contrasena incorrecta.");
+} else {
+    console.log("Usuario no encontrado.");
+}

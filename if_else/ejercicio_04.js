@@ -11,3 +11,20 @@
   Calcula e imprime el valor del descuento y el precio final a pagar.
 */
 
+function calcularDescuento(monto) {
+  var monto =450000;
+  var descuento = 0;
+
+  if (monto >= 500000) {
+    descuento = monto * 0.20;
+  } else if (monto >= 200000) {
+    descuento = monto * 0.1;
+  } else if (monto >= 100000) {
+    descuento = monto * 0.05;
+  } else if (monto < 100000) {
+    descuento = 0;
+  }
+
+  return monto - descuento;
+}
+console.log("El precio final es: $" + calcularDescuento(450000));

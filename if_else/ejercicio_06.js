@@ -13,3 +13,15 @@
 */
 
 
+var lado1 = 5;
+var lado2 = 7;
+var lado3 = 9;
+if ((lado1 == lado2) && (lado2 == lado3)){
+    console.log("El triangulo es equilatero.");
+} else if ((lado1 == lado2) || (lado2 == lado3) || (lado1 == lado3)) {
+    console.log("El triangulo es isosceles.");
+} else if ((lado1 != lado2) && (lado2 != lado3) && (lado1 != lado3)) {
+    console.log("El triangulo es escaleno.");
+} else{
+  console.log("La suma de dos lados debe ser mayor que el tercero");
+}

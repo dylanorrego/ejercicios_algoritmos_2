@@ -10,3 +10,16 @@
   - Mayor o igual a 35°C: "Calor extremo. Evita el sol directo."
 */
 
+let temperatura = 30;
+
+if (temperatura < 0){
+    console.log("Bajo cero. Ten cuidado con el hielo.");
+} else if (temperatura >= 0 && temperatura <= 14) {
+    console.log("Hace frio. Abrigate bien.");
+} else if (temperatura >= 15 && temperatura <= 24) {
+    console.log("Temperatura agradable. Disfruta el dia.");
+} else if (temperatura >= 25 && temperatura <= 34) {
+    console.log("Hace calor. Mantente hidratado.");
+} else {
+    console.log("Calor extremo. Evita el sol directo.");
+}

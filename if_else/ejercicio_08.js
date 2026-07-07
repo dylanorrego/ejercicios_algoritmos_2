@@ -12,3 +12,17 @@
   Calcula el IMC, redondea el resultado a dos decimales
   e imprime la clasificacion correspondiente.
 */
+var peso = 70; // en kilogramos
+var altura = 1.75; // en metros
+var imc = peso / (altura * altura);
+imc = Math.round(imc * 100) / 100; // Redondear a dos decimales
+
+if (imc < 18.5) {
+    console.log("Clasificación: Bajo peso");
+} else if (imc >= 18.5 && imc <= 24.9) {
+    console.log("Clasificación: Peso normal");
+} else if (imc >= 25.0 && imc <= 29.9) {
+    console.log("Clasificación: Sobrepeso");
+} else {
+    console.log("Clasificación: Obesidad");
+}

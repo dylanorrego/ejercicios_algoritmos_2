@@ -10,3 +10,14 @@
   Declara una variable "edad" con la edad del espectador.
   Usando if / else if / else, calcula e imprime el precio de la entrada.
 */
+let edad = 30;
+
+if (edad < 5) {
+    console.log("La entrada es gratuita.");
+} else if (edad >= 5 && edad <= 11) {
+    console.log("El precio de la entrada es $8.000.");
+} else if (edad >= 12 && edad <= 64) {
+    console.log("El precio de la entrada es $15.000.");
+} else {
+    console.log("El precio de la entrada es $9.000.");
+}
