@@ -7,3 +7,7 @@
   Imprime: "El numero mayor es: X"
 */
 
+let a = 10;
+let b = 20;
+let mayor = a > b ? a : b;
+console.log("El numero mayor es: " + mayor);

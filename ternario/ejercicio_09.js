@@ -11,3 +11,11 @@
   Pista: puedes encadenar dos operadores ternarios para tres opciones.
 */
 
+let hora = 15;
+let saludo = (hora >= 0 && hora <= 11) 
+? "Buenos dias"
+: (hora >= 12 && hora <= 17)
+? "Buenas tardes"
+: "Buenas noches";
+
+console.log(saludo);

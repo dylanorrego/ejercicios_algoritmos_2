@@ -10,3 +10,8 @@
 */
 
 
+let temperatura = 12;
+let recomendacion = temperatura < 15 ? "Abrigate bien antes de salir." 
+    : "Puedes salir con ropa ligera.";
+
+    console.log(recomendacion);

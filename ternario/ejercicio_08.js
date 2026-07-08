@@ -10,3 +10,9 @@
   Imprime la velocidad y la alerta.
 */
 
+let velocidad = 45;
+let alerta = (velocidad > 30) 
+? "ALERTA: Exceso de velocidad."
+: "Velocidad dentro del limite.";
+console.log("Velocidad: " + velocidad + " km/h");
+console.log(alerta);
