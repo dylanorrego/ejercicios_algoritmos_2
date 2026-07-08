@@ -10,7 +10,7 @@
 */
 
 
-let temperatura = 12;
+let temperatura = 13;
 let recomendacion = temperatura < 15 ? "Abrigate bien antes de salir." 
     : "Puedes salir con ropa ligera.";
 

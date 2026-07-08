@@ -8,7 +8,7 @@
   Imprime el nombre del producto y su estado.
 */
 
-let unidadesEnStock = 5;
+let unidadesEnStock = 6;
 let estadoProducto = unidadesEnStock > 0 ? "Disponible" : "Agotado";
 console.log("Producto: Zapatos deportivos");
 console.log("Estado: " + estadoProducto);

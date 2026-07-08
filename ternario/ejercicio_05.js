@@ -15,5 +15,6 @@ let esVIP = true;
 let precioBase = 100000;
 let descuento = esVIP ? 20 : 5;
 let precioFinal = precioBase - (precioBase * descuento / 100);
+
 console.log("Descuento: " + descuento + "%");
 console.log("Precio final: $" + precioFinal);

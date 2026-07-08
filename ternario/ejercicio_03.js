@@ -8,7 +8,7 @@
   Imprime el resultado junto con la nota obtenida.
 */
 
-let nota = 55;
+let nota = 50;
 
 let resultado = nota >= 60 ? "Aprobo" : "Reprobo";
 

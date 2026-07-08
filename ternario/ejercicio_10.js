@@ -12,7 +12,7 @@
 */
 
 let esMoto = false;
-let horas = 3;
+let horas = 4;
 let tarifaPorHora = esMoto ? 2000 : 5000;
 let total = tarifaPorHora * horas;
 

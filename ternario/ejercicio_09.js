@@ -16,6 +16,8 @@ let saludo = (hora >= 0 && hora <= 11)
 ? "Buenos dias"
 : (hora >= 12 && hora <= 17)
 ? "Buenas tardes"
-: "Buenas noches";
+: (hora >= 18 && hora <= 23)
+? "Buenas noches"
+: "Hora invalida";
 
 console.log(saludo);
