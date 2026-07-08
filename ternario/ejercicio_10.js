@@ -11,8 +11,8 @@
   Imprime el tipo de vehiculo, las horas parqueadas y el total.
 */
 
-let esMoto = true;
-let horas = 4;
+let esMoto = false;
+let horas = 3;
 let tarifaPorHora = esMoto ? 2000 : 5000;
 let total = tarifaPorHora * horas;
 
