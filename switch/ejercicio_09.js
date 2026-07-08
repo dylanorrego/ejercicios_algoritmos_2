@@ -13,3 +13,23 @@
 */
 
 
+let opcion = 4;
+switch (opcion) {
+    case 1:
+      console.log("Bandeja paisa - $18.000");
+      break;
+    case 2:
+      console.log("Ajiaco bogotano - $15.000");
+      break;
+    case 3:
+      console.log("Sancocho de gallina - $14.000");
+      break;
+    case 4:
+      console.log("Arroz con pollo - $12.000");
+      break;
+    case 5:
+      console.log("Sopa de lentejas - $10.000");
+      break;
+    default:
+      console.log("Opcion no disponible en el menu.");
+}

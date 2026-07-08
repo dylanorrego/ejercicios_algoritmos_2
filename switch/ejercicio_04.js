@@ -13,3 +13,27 @@
   muestra: "Color no registrado."
 */
 
+let color = "Y"
+
+switch (color) {
+   case "R":
+      console.log(" El color es Rojo");
+      break;
+   case "G":
+      console.log("El color es Verde");
+      break;
+   case "B":
+      console.log("El color es Azul");
+      break;
+   case "Y":
+      console.log("El color es Amarillo");
+      break;
+   case "W":
+      console.log("El color es Blanco");
+      break;
+   case "K":
+      console.log("El color es Negro");
+      break;
+   default:
+      console.log("Color no registrado.");
+}

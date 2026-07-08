@@ -14,3 +14,25 @@
 
   Pista: agrupa los casos 0 a 5 para mostrar "F - Reprobado".
 */
+
+let nota = 8;
+
+switch (nota) {
+    case 10:
+        console.log("A+");
+        break;
+    case 9:
+        console.log("A");
+        break;
+    case 8:
+        console.log("B");
+        break;
+    case 7:
+        console.log("C");
+        break;
+    case 6:
+        console.log("D");
+        break;
+    default:
+        console.log("F - Reprobado");
+}

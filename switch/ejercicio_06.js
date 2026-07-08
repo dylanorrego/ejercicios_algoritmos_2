@@ -11,3 +11,24 @@
   Para cualquier otro numero, muestra: "Tipo de vehiculo desconocido."
 */
 
+let ruedas = 6;
+
+switch (ruedas) {
+    case 2:
+        console.log("Bicicleta o motocicleta");
+        break;
+    case 3:
+        console.log("Triciclo o motocarro");
+        break;
+    case 4:
+        console.log("Automovil o camioneta");
+        break;
+    case 6:
+        console.log("Camion pequeno");
+        break;
+    case 18:
+        console.log("Tractocamion");
+        break;
+    default:
+        console.log("Tipo de vehiculo desconocido.");
+}
